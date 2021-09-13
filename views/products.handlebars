@@ -1,0 +1,15 @@
+<h1>My Datasheet</h1>
+<div class="row">
+    {{#each data}}
+      <div class="col-12">
+          {{sku}}
+          {{name}}
+          {{description}}
+
+      </div>
+
+    {{else}}
+      <p>No Datasheet Found</p>
+
+    {{/each}}
+</div>
